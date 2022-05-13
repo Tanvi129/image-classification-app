@@ -62,6 +62,10 @@ android {
         noCompress 'tflite'
         noCompress 'lite'
     }
+
+    defaultConfig {                                                                             
+     minSdkVersion 19                                                                          
+  }  
 }
 
 flutter {
